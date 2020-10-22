@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "IsSimplified",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testIsSimplified",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "CalculateDoubleValue",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testCalculateDoubleValue",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testPow",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testPow",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testMatches",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testMatches",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testIsNegative",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testIsNegative",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testReciprocal",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testReciprocal",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "testEquals",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testEquals",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
