@@ -1,3 +1,5 @@
+import javax.xml.namespace.QName;
+
 public class Rational
 {
     // instance variables: every Rational object will have its own copy
@@ -94,18 +96,47 @@ public class Rational
     // Methods you'll write for homework:
     // Returns whether or not the Rational is a negative number
     public boolean isNegative() { 
-        return false; // YOUR CODE HERE
+        if (this.numerator * -1 >= 0){
+            if (this.denominator * -1 >= 0 ){
+                return false;
+            }
+
+            else{
+                return true;
+            }
+        }
+        else{
+            if (this.denominator * -1 < 0){
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+        
     }
 
     // Calculates the reciprocal of a Rational number.
     // The reciprocal of 3/4 is 4/3, the reciprocal of 1/2 is 2/1
     public Rational reciprocal() {
-        return null; // YOUR CODE HERE
+        Rational x = new Rational(this.denominator, this.numerator);
+
+        return x;
     }
 
     // Checks whether the current Rational is the exactly the same as other
     public boolean equals(Rational other) {
-        return false; // YOUR CODE HERE
+        if (this.numerator == other.numerator){
+            if (this.denominator == other.denominator){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+        else{
+            return false;
+        }
     }
 
 
